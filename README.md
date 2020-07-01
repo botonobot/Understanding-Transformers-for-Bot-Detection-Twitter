@@ -7,6 +7,8 @@ This repository includes full-size images, tables and jupyter notebooks with the
     + [Grammatical analysis](#grammatical-analysis)
     + [Contextual Similarity](#contextual-similarity)
     + [Twitter Entities](#twitter-entities)
+  * [How to generate the dataset](#how-to-generate-the-dataset)
+  * [Dependencies](#dependencies)
 
 ## Fine-tuning language models on bot detection
 We fine-tune BERT base, GPT and GPT2 (117M model) on the bot detection task using different models and libraries available. 
@@ -138,7 +140,7 @@ Related Notebooks:
 * [twitter_entities-BERT.ipynb](./twitter_entities/twitter_entities-BERT.ipynb) evaluates different layer BERT embeddings for twitter entity (user, hashtag, URL or other) identification.
 * [twitter_entities-GPT2.ipynb](./twitter_entities/twitter_entities-GPT2.ipynb)  evaluates different layer GPT2 embeddings for twitter entity (user, hashtag, URL or other) identification.
 
-# How to generate the dataset?
+# How to generate the dataset
 Although the human and bot twitter account dataset is not longer available from the [original source](https://www.cl.cam.ac.uk/~szuhg2/data/characterisation_processed.zip), it can be found [here](./dataset_generation/classification_processed).
 
 We need to create two datasets, one with tweets made by human accounts, and one with tweets made by bot accounts. To download tweets from Twitter, we are going to use the [twitter API](https://developer.twitter.com/en/docs), and to make things more easily, we are going to use the [Twitter Ruby Gem](https://rdoc.info/gems/twitter). To use this library we need to install [ruby](https://www.ruby-lang.org/en/), [Twitter Ruby Gem](https://rdoc.info/gems/twitter) and the [csv gem](https://github.com/ruby/csv).
