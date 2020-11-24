@@ -1,5 +1,5 @@
 # Understanding Transformers for Bot Detection in Twitter
-This repository includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Understanding Transformers for Bot Detection in Twitter** submitted for revision to **Coling'2020**. The following subjects presented in the paper are covered here:
+This repository includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Understanding Transformers for Bot Detection in Twitter** submitted for revision to **NAACL-HLT 2021**. The following subjects presented in the paper are covered here:
 
   * [Fine-tuning language models on bot detection](#fine-tuning-language-models-on-bot-detection)
   * [Vocabulary and word embeddings](#vocabulary-and-word-embeddings)
